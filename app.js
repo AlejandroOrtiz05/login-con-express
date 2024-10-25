@@ -8,7 +8,7 @@ const session = require('express-session')
 
 const cors = require('cors');
 
-// Aquí especificas explícitamente el origen de tu frontend
+
 app.use(cors({
   origin: 'http://localhost:5173',  
   credentials: true 
